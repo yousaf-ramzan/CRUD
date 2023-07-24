@@ -32,8 +32,12 @@ const Users = () => {
                   <td>{user.Email}</td>
                   <td>{user.age}</td>
                   <td>
-                    <button>Edit</button>
-                    <button>Delete</button>
+                    <Link to="update" className="btn btn-success">
+                      Update
+                    </Link>
+                    <Link to="" className="btn btn-danger">
+                      Delete
+                    </Link>
                   </td>
                 </tr>
               );
